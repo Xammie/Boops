@@ -17,7 +17,7 @@ function main(input) {
     }
 }
 
-const regex = /^[0-9a-zA-Z]$/gm;
+const regex = /^[a-zA-Z]$/gm;
 
 function emoji(char) {
     if (! char.match(regex)) {
